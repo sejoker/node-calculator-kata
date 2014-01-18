@@ -27,4 +27,14 @@
     "mocha": "~1.17.0",
     "should": "~3.0.1"
   }
+ "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ],
+      "opera": [ 12 ]
+    }
+  }
 }
