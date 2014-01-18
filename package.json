@@ -26,7 +26,7 @@
   "dependencies": {
     "mocha": "~1.17.0",
     "should": "~3.0.1"
-  }
+  },
  "testling": {
     "files": "test/*.js",
     "browsers": {
